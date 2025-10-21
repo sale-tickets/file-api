@@ -2,16 +2,11 @@ module github.com/sale-tickets/file-api
 
 go 1.25.2
 
-replace (
-	github.com/godev-lib/golang => /root/project/golang
-	github.com/sale-tickets/golang-common => /root/project/sale-ticket/golang-common
-)
-
 require (
-	github.com/godev-lib/golang v1.0.3
+	github.com/godev-lib/golang v1.0.4
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.2
 	github.com/minio/minio-go/v7 v7.0.95
-	github.com/sale-tickets/golang-common v1.0.6
+	github.com/sale-tickets/golang-common v1.0.7
 	go.uber.org/fx v1.24.0
 	google.golang.org/grpc v1.75.1
 	gorm.io/gorm v1.31.0
